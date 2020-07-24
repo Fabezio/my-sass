@@ -1,0 +1,164 @@
+.success-txt {
+  color: #50C878;
+}
+
+.success-bg {
+  background: #50C878;
+}
+
+.success-btn {
+  background: #50C878;
+  color: whitesmoke;
+}
+
+.info-txt {
+  color: #0F52BA;
+}
+
+.info-bg {
+  background: #0F52BA;
+}
+
+.info-btn {
+  background: #0F52BA;
+  color: whitesmoke;
+}
+
+.danger-txt {
+  color: #e0115f;
+}
+
+.danger-bg {
+  background: #e0115f;
+}
+
+.danger-btn {
+  background: #e0115f;
+  color: whitesmoke;
+}
+
+.warning-txt {
+  color: #ffbf00;
+}
+
+.warning-bg {
+  background: #ffbf00;
+}
+
+.warning-btn {
+  background: #ffbf00;
+  color: #333;
+}
+
+.link-txt {
+  color: #b9f2ff;
+}
+
+.link-bg {
+  background: #b9f2ff;
+}
+
+.link-btn {
+  background: #b9f2ff;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: 16px;
+  color: whitesmoke;
+  height: 100vh;
+  background: #023;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 0.5em 0;
+  font-weight: 400;
+  line-height: 1.2;
+  text-shadow: 1px 1px teal;
+}
+
+h1 {
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+h2 {
+  font-variant: small-caps;
+}
+
+button {
+  /* height: 1.5rem; */
+  /* width: 100%; */
+  font-size: inherit;
+  font-weight: 400;
+  padding: 8px 16px;
+  border: 1px transparent solid;
+  border-radius: 5px;
+}
+button a {
+  text-decoration: none;
+}
+
+.fw {
+  width: 100%;
+}
+
+a {
+  font-weight: 400;
+}
+
+/* navbars */
+/* clearfix */
+/* img {
+  height: 48px;
+} */
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.empty-thumbnail {
+  background: url("/images/robes.jpg");
+  display: flex;
+  background-size: cover;
+}
+.empty-thumbnail [alt] {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: gold;
+  display: flex;
+  font-weight: 400;
+  justify-content: center;
+  margin: auto;
+  padding: 7px 0;
+  text-align: center;
+  text-shadow: 1px 1px black;
+  width: 100%;
+  z-index: 10;
+}
+
+/* displays */
+
+/*# sourceMappingURL=style.css.map */
